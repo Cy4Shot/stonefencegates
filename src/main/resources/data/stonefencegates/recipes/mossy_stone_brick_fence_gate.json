@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/C/",
+        "/C/"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "C": {
+            "item": "minecraft:mossy_stone_bricks"
+        }
+    },
+    "result": {
+        "item": "stonefencegates:mossy_stone_brick_fence_gate",
+        "count": 1
+    }
+}

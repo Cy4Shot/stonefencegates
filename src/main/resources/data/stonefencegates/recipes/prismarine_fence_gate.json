@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/C/",
+        "/C/"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "C": {
+            "item": "minecraft:prismarine"
+        }
+    },
+    "result": {
+        "item": "stonefencegates:prismarine_fence_gate",
+        "count": 1
+    }
+}

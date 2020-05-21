@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/C/",
+        "/C/"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "C": {
+            "item": "minecraft:nether_bricks"
+        }
+    },
+    "result": {
+        "item": "stonefencegates:nether_brick_fence_gate",
+        "count": 1
+    }
+}
