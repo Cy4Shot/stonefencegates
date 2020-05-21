@@ -1,0 +1,48 @@
+modLoader="javafml"
+
+loaderVersion = "[31,)"
+
+issueTrackerURL = "https://github.com/Cy4Shot/stone-fence-gates"
+
+[[mods]]
+
+modId = "stonefencegates"
+
+version = "1.0"
+
+
+displayName = "Stone Fence Gates"
+
+updateJSONURL = "https://github.com/Cy4Shot/stone-fence-gates"
+
+displayURL = "https://github.com/Cy4Shot/stone-fence-gates"
+
+logoFile = "examplemod.png"
+
+credits = "Mod by Cy4"
+
+authors = "Cy4, Cy4"
+
+description ='''
+Adds stone fence gates to minecraft!
+'''
+
+[[dependencies.stonefencegates]] #optional
+    # the modid of the dependency
+    modId = "forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory = true #mandatory
+    # The version range of the dependency
+    versionRange = "[31,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering = "NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side = "BOTH"
+
+# Here's another dependency
+[[dependencies.stonefencegates]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.15.2]"
+    ordering = "NONE"
+    side = "BOTH"
